@@ -1,0 +1,46 @@
+.board {
+	width: 600px;
+	height: 600px;
+	display: grid;
+	margin: 0 auto;
+    border: solid #b97a3a 2px;
+	grid-template-columns: repeat(8, 75px);
+	grid-template-rows: repeat(8, 75px);
+}
+
+.square {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.light-square {
+	background-color:#f3d6ba;
+}
+.dark-square {
+	background-color :#b97a3a;
+}
+
+.piece {
+	width: 65%;
+	height: 65%;
+	border-radius: 50%;
+	border: 4px solid white;
+	cursor: pointer;	
+}
+
+.red {
+	background: #ca0a0a
+}
+
+.black {
+	background: black;
+}
+
+.king {
+	border: 4px solid rgb(207, 180, 22);
+}
+
+.pointer {
+	cursor: pointer;
+}
